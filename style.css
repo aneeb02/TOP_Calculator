@@ -1,0 +1,54 @@
+body{
+  background-color: rgb(148, 164, 213);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 20px;
+}
+
+
+.card{
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+  
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  max-width:230px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.display{
+  text-align: end;
+  border: 2px solid rgb(195, 202, 207);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 30px;
+  background-color: rgb(210, 233, 253);
+}
+
+button{
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0dvb -1px 10px rgb(200, 206, 212),
+  5px 5px 12px rgba(0,0,0,.16);
+  font-size: 18px;
+  height: 50px;
+  width: 50px;
+  cursor:pointer;
+}
+
+button:hover{
+  background-color: rgb(207, 217, 237);
+  transition: 0.3s;
+}
